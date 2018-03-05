@@ -1,5 +1,26 @@
+
+/*@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');*/
 html, body {
-    background:url('../../resources/img/bg.jpeg') center center no-repeat;
+    background:url('../../resources/img/bg-2.jpeg') center center no-repeat;
     height: 100%;
     background-size:cover;
+}
+
+#logo img {
+    margin:0 auto !important;
+    padding-top:20px;
+}
+
+#intro p {
+    color: white;
+    text-align:center;
+    font-family: 'Just Another Hand', cursive;
+    font-size:1.8em;
+}
+#counter .countdown {
+    text-align:center;
+    color:white;
+    font-family: 'Amatic SC', cursive;
+    font-size:3em;
+    margin:-15px 0 0;
 }
