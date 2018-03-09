@@ -3,6 +3,7 @@
 html, body {
     background:url('../../resources/img/bg-2.jpeg') center center no-repeat;
     height: 100%;
+    background-attachment: fixed;
     background-size:cover;
 }
 
