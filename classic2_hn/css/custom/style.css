@@ -12,6 +12,10 @@ html, body {
     padding-top:20px;
 }
 
+#profile {
+    border-radius: 50%; /*once this is a square, it will become a circle */
+}
+
 #intro p {
     color: white;
     text-align:center;

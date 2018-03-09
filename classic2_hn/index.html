@@ -21,13 +21,55 @@
     <title>Hello, world!</title>
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Awards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Interests</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Social Causes/Volunteering</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 <h1 class="">Hello, world! </h1>
     <section id="logo">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-12 text-center">
-                    <img src="resources/img/my-logo.png" class="img-fluid"/>
+                    <img id="profile" src="resources/img/my-logo.png" class="img-fluid"/>
                 </div>
             </div>
         </div>
@@ -98,6 +140,9 @@
 
     <p> Todo: use an ajax request for mailchimp (so that we have custom/full control over the interaction).
     Also: look into actual mailchimp interaction (with a real-life website)</p>
+
+    <a href="#mysect"> Click me to get there down below </a>
+
 </section>
 
 <section>
@@ -152,6 +197,7 @@
     <br>
     <br>
     <br>
+    <p id="mysect"> There's still more content below </a>
     <br>
     <br>
     <br>
