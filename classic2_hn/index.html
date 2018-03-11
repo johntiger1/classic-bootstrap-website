@@ -21,9 +21,9 @@
     <title>Hello, world!</title>
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+<!--we really need to set the class active to the correct one-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">John Chen</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,7 +34,7 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#Projects">Projects</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Awards</a>
@@ -111,6 +111,9 @@
                     <a href="http://www.facebook.com" target="blank"><li class="list-inline-item"><i class="fa facebook fa-facebook-square fa-3x" aria-hidden="true"></i></li></a>
                     <a href="http://www.google.com" target="blank"><li class="list-inline-item"><i class="fa google fa-google-plus-square fa-3x" aria-hidden="true"></i></li></a>
                     <a href="http://www.instagram.com" target="blank"><li class="list-inline-item"><i class="fa instagram fa-instagram fa-3x" aria-hidden="true"></i></li></a>
+                    <a href="https://www.linkedin.com/in/johnn-chen/" target="blank"><li class="list-inline-item"><i class="fa linkedin fa-linkedin fa-3x" aria-hidden="true"></i></li></a>
+                    <a href="https://github.com/johntiger1/" target="blank"><li class="list-inline-item"><i class="fa github fa-github fa-3x" aria-hidden="true"></i></li></a>
+
                 </ul>
             </div>
 
@@ -197,7 +200,7 @@
     <br>
     <br>
     <br>
-    <p id="mysect"> There's still more content below </a>
+    <p id="mysect"> There's still more content below </p>
     <br>
     <br>
     <br>
@@ -221,7 +224,7 @@
     <br>
     <br>
     <br>
-
+    <p id="Projects"> This is way downtown </p>
     <p> Todo: use an ajax request for mailchimp (so that we have custom/full control over the interaction).
         Also: look into actual mailchimp interaction (with a real-life website)</p>
 </section>
@@ -236,6 +239,15 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
 <script type="text/javascript" src="js/countdown-2.2.0/dest/jquery.countdown.js"></script>
+
+<script>
+
+    $(document).ready(function() {
+        $(document).on('click', '.nav-item a', function (e) {
+            $(this).parent().addClass('active').siblings().removeClass('active');
+        });
+    });
+</script>
 <script>
 
     $(window).on('load', function()

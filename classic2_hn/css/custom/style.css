@@ -58,6 +58,17 @@ html, body {
     bottom:5px;
 }
 
+#icons .linkedin:hover{
+    color: #c69500;
+    bottom: 5px;
+
+}
+/*look up what exactly the hover is */
+#icons .github:hover {
+    color: #545b62;
+    bottom: 5px;
+
+}
 #signup {
     text-align: center;
 }
