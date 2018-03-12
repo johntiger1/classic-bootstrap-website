@@ -83,3 +83,8 @@ html, body {
 #signup .btn:hover {
     background-color:rgba(37,165,82,1);
 }
+
+#name_title {
+    font-family: 'Cutive', serif !important; /*Not sure why this has to be overridden*/
+    font-variant: small-caps;
+}
