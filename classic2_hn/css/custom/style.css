@@ -17,10 +17,10 @@ html, body {
 }
 
 #intro p {
-    color: white;
+    /*color: white;*/
     text-align:center;
-    font-family: 'Just Another Hand', cursive;
-    font-size:1.8em;
+    /*font-family: 'Just Another Hand', cursive;*/
+    font-size:3em;
 }
 #counter .countdown {
     text-align:center;
@@ -85,6 +85,8 @@ html, body {
 }
 
 #name_title {
-    font-family: 'Cutive', serif !important; /*Not sure why this has to be overridden*/
-    font-variant: small-caps;
+    font-family: 'Nunito', serif !important; /*Not sure why this has to be overridden*/
+    font-variant: all-petite-caps;
+    color: black;
+    letter-spacing: 0.2em;
 }
