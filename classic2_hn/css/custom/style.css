@@ -1,7 +1,7 @@
 
 /*@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');*/
 html, body {
-    background:url('../../resources/img/bg-2.jpeg') center center no-repeat;
+    background:url('../../resources/img/light_back.jpg') center center no-repeat;
     height: 100%;
     background-attachment: fixed;
     background-size:cover;
@@ -20,7 +20,9 @@ html, body {
     /*color: white;*/
     text-align:center;
     /*font-family: 'Just Another Hand', cursive;*/
-    font-size:3em;
+    font-size:1.5em;
+    /*max-width: 50%;*/
+    /*vertical-align: middle;*/
 }
 #counter .countdown {
     text-align:center;
@@ -32,6 +34,7 @@ html, body {
 
 #icons {
     text-align:center;
+    margin-top: 3em;
 }
 #icons .fa {
     color:white;
@@ -89,4 +92,14 @@ html, body {
     font-variant: all-petite-caps;
     color: black;
     letter-spacing: 0.2em;
+    text-align:center;
+    /*font-family: 'Just Another Hand', cursive;*/
+    font-size:3em;
 }
+
+.centerME{
+    margin: 0 auto; /*figure out why this is the only working solution*/
+}
+/*#about{*/
+    /*font-s*/
+/*}*/
