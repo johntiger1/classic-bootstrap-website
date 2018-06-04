@@ -118,8 +118,8 @@ section{
 
 
 .carousel-inner > .carousel-item {
-    height: 50vh;
-    width: 50vw;
+    height: 90vh;
+    width: 90vw;
     /*max-width: 90vw;*/
     /*overflow: hidden;*/
 }
@@ -129,6 +129,10 @@ section{
     max-height: 90vh;
 
 
+}
+
+#app{
+    color: #e83e8c;
 }
 
 /*x*/
