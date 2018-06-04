@@ -8,17 +8,18 @@ var typewriter = new Typewriter(app, {
 
 const speed = 2000;
 
-typewriter.typeString('hacker')
+typewriter.typeString('systems hacker')
     .pauseFor(speed)
     .deleteAll()
-    .typeString('researcher')
+    .typeString('AI researcher')
     .pauseFor(speed)
     .deleteAll()
-    .typeString('developer')
+    .typeString('web developer')
     .pauseFor(speed)
     .deleteAll()
     .changeTypingSpeed(50)
     .typeString('early adopter of the next web')
+    .pauseFor(speed + 1000)
     .start();
 
 // var typed = new Typed('.element', {
