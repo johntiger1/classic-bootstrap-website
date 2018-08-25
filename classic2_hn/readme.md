@@ -1,3 +1,11 @@
+
+Some dev tips:
+git ftp push
+and also: look into adding a site counter (via a third party of course):
+http://bryanyzhu.github.io/2015/12/17/all_about_hexo_III/
+http://www.reliablecounter.com/
+static site visitor count or hit counter
+
 Todo:
 
 Add more porjects/the rest of the sections
